@@ -1,0 +1,11 @@
+name: MSTR_Warps
+main: ca.strendin.MSTR_Warps.MSTR_Warps
+version: 0.1
+author: Mark Strendin
+description: Allows a player to frolic among enemies, unnoticed
+permissions:
+  MSTR_MobIgnore.ignoreall:   
+   default: op
+  MSTR_MobIgnore.ignorecreeper:   
+   default: op   
+commands:     
