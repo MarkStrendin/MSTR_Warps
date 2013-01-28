@@ -47,11 +47,11 @@ public class MSTR_Comms {
     }
     
     public static void sendConsole(String message) {
-        System.out.println("[MSTR_CompassTeleport] " + message);
+        System.out.println("[MSTR_Warps] " + message);
     }
     
     public static void logThis(String message) {
-        log.info("[MSTR_MobHeads] " + message);
+        log.info("[MSTR_Warps] " + message);
     }
     
     public static void permDenyMsg(Player tothisplayer) {

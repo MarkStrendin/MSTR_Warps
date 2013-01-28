@@ -4,8 +4,23 @@ version: 0.1
 author: Mark Strendin
 description: Allows a player to frolic among enemies, unnoticed
 permissions:
-  MSTR_MobIgnore.ignoreall:   
+  mstr_warps.warp:   
    default: op
-  MSTR_MobIgnore.ignorecreeper:   
+  mstr_warps.create:   
    default: op   
-commands:     
+commands:
+  setwarp:
+   aliases: [createwarp, warpcreate, warpset]
+   description: Creates a warp point
+   permission: mstr_warps.create   
+  removewarp:
+   aliases: [deletewarp, warpremove, warpdelete]
+   description: Removes a warp
+   permission: mstr_warps.create
+  warp:
+   description: Warps you to the specified warp point
+   permission: mstr_warps.warp
+  listwarps:
+   aliases: [warplist]
+   description: Warps you to the specified warp point
+   permission: mstr_warps.warp
